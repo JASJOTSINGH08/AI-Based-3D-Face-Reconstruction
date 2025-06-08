@@ -1,0 +1,146 @@
+.upload-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 40px 20px;
+  min-height: 500px;
+  position: relative;
+}
+
+.upload-card {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.upload-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.upload-description {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.file-input-container {
+  margin-bottom: 25px;
+}
+
+.file-input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f0f8ff;
+  border: 2px dashed #0044cc;
+  border-radius: 8px;
+  padding: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-label:hover {
+  background: #e6f2ff;
+}
+
+.file-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom, #0044cc, #002266);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.plus {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.upload-button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to right, #0044cc, #0066ff);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-button:hover {
+  background: linear-gradient(to right, #003399, #0055cc);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 102, 0.2);
+}
+
+.upload-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #0044cc, #0066ff);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.viewer-container {
+  width: 100%;
+  height: 500px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

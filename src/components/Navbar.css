@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 2px solid lightgray;
+  }
+  
+  .menu span {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
